@@ -8,8 +8,7 @@ CYAN='\033[1;36m'
 NC='\033[0m'
 
 echo -e "${CYAN}*-------------------*---------------------*${NC}"
-echo -e "${YEL}* Check MDM - Skip MDM Auto for MacOS by *${NC}"
-echo -e "${RED}*       Mac MDM Bypass          *${NC}"
+echo -e "${RED}*          Mac MDM Bypass          *${NC}"
 echo -e "${RED}*            By WINS94                *${NC}"
 echo -e "${CYAN}*-------------------*---------------------*${NC}"
 echo ""
