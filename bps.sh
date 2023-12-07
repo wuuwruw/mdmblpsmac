@@ -7,6 +7,18 @@ PUR='\033[1;35m'
 CYAN='\033[1;36m'
 NC='\033[0m'
 
+# Запрашиваем пароль
+read -s -p "Enter the password to execute the script: " enteredPassword
+
+# Задайте ваш ожидаемый пароль
+expectedPassword="r3bx6h98"
+
+# Проверка пароля
+if [ "$enteredPassword" != "$expectedPassword" ]; then
+    echo -e "${RED}Incorrect password. Exiting.${NC}"
+    exit 1
+fi
+
 echo -e "${CYAN}*-------------------*---------------------*${NC}"
 echo -e "${RED}*          Mac MDM Bypass          *${NC}"
 echo -e "${RED}*            By WINS94                *${NC}"
